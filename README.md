@@ -1,2 +1,3 @@
 # delorean-express
 In this project ESP32 cam is used to color detecting with openCV and Python. The Arduino code is not mine, you can see the credits in top of the code.
+Originally it was used to detect colored tapes on the rails' surface of a miniature train. The purpose was to simulate damages on the rails and detect those damages with computer vision while the train was moving. The ESP32 cam was placed on the top of the train with its camera pointed at the rails so it could catch the colored tapes. When a damage is detected the program takes a screenshot of the video stream showing the damage on the rail.
